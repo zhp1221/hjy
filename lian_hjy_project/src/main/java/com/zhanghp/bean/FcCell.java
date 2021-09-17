@@ -25,7 +25,7 @@ public class FcCell implements Serializable {
     /**
      * 单元编码
      */
-    private Integer unitCode;
+    private String unitCode;
 
     /**
      * 房间编码
@@ -186,11 +186,11 @@ public class FcCell implements Serializable {
         this.id = id;
     }
 
-    public Integer getUnitCode() {
+    public String getUnitCode() {
         return unitCode;
     }
 
-    public void setUnitCode(Integer unitCode) {
+    public void setUnitCode(String unitCode) {
         this.unitCode = unitCode;
     }
 

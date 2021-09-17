@@ -1,12 +1,10 @@
 package com.zhanghp.service;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.zhanghp.bean.FcBuilding;
-import com.zhanghp.bean.FcEstate;
-import com.zhanghp.bean.TblCompany;
-import com.zhanghp.mapper.FcBuildingMapper;
-import com.zhanghp.mapper.FcEstateMapper;
-import com.zhanghp.mapper.TblCompanyMapper;
+import com.zhanghp.bean.*;
+import com.zhanghp.mapper.*;
+import com.zhanghp.objectValues.CellMessage;
+import com.zhanghp.objectValues.UnitMessage;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -25,6 +23,10 @@ public class EstateService {
     private FcEstateMapper fcEstateMapper;
     @Autowired
     private FcBuildingMapper fcBuildingMapper;
+    @Autowired
+    private FcUnitMapper fcUnitMapper;
+    @Autowired
+    private FcCellMapper fcCellMapper;
     /**
      *从数据库获得公司集合
      * @return 公司集合
@@ -63,8 +65,8 @@ public class EstateService {
         List<FcBuilding> fcBuildings = new ArrayList<>();
         for (int i = 0; i < buildingNumber; i++) {
             FcBuilding fcBuilding = new FcBuilding();
-            fcBuilding.setBuildingCode("B"+(i+1));
-            fcBuilding.setBuildingName("第"+ (i+1) +"楼");
+            fcBuilding.setBuildingCode(estateCode + "B" + (i+1));
+            fcBuilding.setBuildingName(estateCode + "第" + (i+1) + "楼");
             //insertEstate做了estateCode唯一的校验方法，所以不会重复插入
             fcBuilding.setEstateCode(estateCode);
             fcBuildingMapper.insert(fcBuilding);
@@ -81,5 +83,44 @@ public class EstateService {
     public int updateBuilding(FcBuilding fcBuilding){
         int result = fcBuildingMapper.updateById(fcBuilding);
         return result;
+    }
+
+    public List<FcUnit> selectUnit(UnitMessage unitMessage){
+        List<FcUnit> fu = new ArrayList<>();
+        for (Integer i = 0; i < unitMessage.getUnitCount(); i++) {
+            FcUnit fcUnit = new FcUnit();
+            fcUnit.setBuildingCode(unitMessage.getBuildingCode());
+            fcUnit.setUnitCode(unitMessage.getBuildingCode()+ "U" + (i+1));
+            fcUnit.setUnitName(unitMessage.getBuildingCode()+ "第" + (i+1) + "单元");
+            fcUnitMapper.insert(fcUnit);
+            fu.add(fcUnit);
+        }
+        return fu;
+    }
+
+    public int updateUnit(FcUnit fcUnit){
+        return fcUnitMapper.updateById(fcUnit);
+    }
+
+    public List<FcCell> insertCell(CellMessage[] cellMessages){
+        List<FcCell> fcs = new ArrayList<>();
+        // 单元集合
+        for (CellMessage cellMessage : cellMessages) {
+            // 楼层
+            for (int i = 0; i < cellMessage.getStopFloor(); i++) {
+                // 房间号
+                for (int j = 0; j < cellMessage.getStopCellId(); j++) {
+                    FcCell fc = new FcCell();
+                    fc.setUnitCode(cellMessage.getUnitCode());
+                    fc.setUnitCode(cellMessage.getUnitCode());
+                    fc.setCellName(i + "0" + j);
+                    fc.setCellCode("C" + i + "0" + j);
+                    fc.setFloorNumber(i);
+                    fcCellMapper.insert(fc);
+                    fcs.add(fc);
+                }
+            }
+        }
+        return fcs;
     }
 }

@@ -1,17 +1,19 @@
 package com.zhanghp.controller;
 
 import com.alibaba.fastjson.JSONObject;
-import com.zhanghp.bean.FcBuilding;
-import com.zhanghp.bean.FcEstate;
-import com.zhanghp.bean.TblCompany;
+import com.zhanghp.bean.*;
 import com.zhanghp.mapper.TblCompanyMapper;
+import com.zhanghp.objectValues.CellMessage;
+import com.zhanghp.objectValues.UnitMessage;
 import com.zhanghp.returnJson.ReturnObject;
 import com.zhanghp.service.EstateService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -57,5 +59,32 @@ public class EstateController {
             return JSONObject.parseObject(JSONObject.toJSONString(new ReturnObject("更新楼宇失败")));
 
         }
+    }
+
+    @RequestMapping("/estate/selectUnit")
+    public JSONObject selectUnit(@RequestBody UnitMessage[] unitMessages){
+        System.out.println("estate_selectUnit");
+        List<FcUnit> fus = new ArrayList<>();
+        for (UnitMessage unitMessage : unitMessages) {
+            fus.addAll(estateService.selectUnit(unitMessage));
+        }
+        return JSONObject.parseObject(JSONObject.toJSONString(new ReturnObject(fus)));
+    }
+
+    @RequestMapping("/estate/updateUnit")
+    public JSONObject updateUnit(FcUnit fcUnit){
+        int result = estateService.updateUnit(fcUnit);
+        if (result == 1) {
+            return JSONObject.parseObject(JSONObject.toJSONString(new ReturnObject("更新单元成功")));
+        }else {
+            return JSONObject.parseObject(JSONObject.toJSONString(new ReturnObject("更新单元失败")));
+
+        }
+    }
+
+    @RequestMapping("estate/insertCell")
+    public JSONObject insertCell(@RequestBody CellMessage[] cellMessages){
+        List<FcCell> fcCells = estateService.insertCell(cellMessages);
+        return JSONObject.parseObject(JSONObject.toJSONString(new ReturnObject(fcCells)));
     }
 }
