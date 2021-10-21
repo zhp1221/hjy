@@ -1,7 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99e52ccf-bfd6-497a-acd4-a46cada669d2" name="Default Changelist" comment="和家云项目前3节课代码提交" />
+    <list default="true" id="99e52ccf-bfd6-497a-acd4-a46cada669d2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhanghp/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhanghp/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../和家云/Byzhang/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../和家云/Byzhang/和家云01.assets/image-20210912115050984.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../和家云/Byzhang/和家云01.assets/image-20210912115510533.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../和家云/Byzhang/和家云01.assets/image-20210912120738647.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../和家云/Byzhang/和家云01.assets/image-20210912154326661.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../和家云/Byzhang/和家云01.assets/image-20210912154811732.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../和家云/Byzhang/和家云01.assets/image-20210912154949437.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../和家云/Byzhang/和家云01.assets/image-20210912155206253.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../和家云/Byzhang/和家云01.assets/image-20210912175434464.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../和家云/Byzhang/和家云01.assets/image-20210912182958318.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../和家云/Byzhang/和家云01.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../和家云/Byzhang/和家云02.assets/image-20210913190247227.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../和家云/Byzhang/和家云02.assets/image-20210913190308729.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../和家云/Byzhang/和家云02.assets/image-20210913190348582.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../和家云/Byzhang/和家云02.assets/image-20210913190637036.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../和家云/Byzhang/和家云02.assets/image-20210913191447010.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../和家云/Byzhang/和家云02.assets/image-20210913193008614.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../和家云/Byzhang/和家云02.assets/image-20210913193147404.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../和家云/Byzhang/和家云02.assets/image-20210913193408827.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../和家云/Byzhang/和家云02.assets/image-20210913193520299.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../和家云/Byzhang/和家云02.assets/image-20210913194837812.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../和家云/Byzhang/和家云02.assets/image-20210913194841840.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../和家云/Byzhang/和家云02.assets/image-20210913194917891.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../和家云/Byzhang/和家云02.assets/image-20210913194928930.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../和家云/Byzhang/和家云02.assets/image-20210913195304854.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../和家云/Byzhang/和家云02.assets/image-20210913195309101.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../和家云/Byzhang/和家云02.assets/image-20210913200415138.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../和家云/Byzhang/和家云02.assets/image-20210913200437287.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../和家云/Byzhang/和家云02.assets/image-20210913200440864.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../和家云/Byzhang/和家云02.assets/image-20210913200713104.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../和家云/Byzhang/和家云02.assets/image-20210913200718703.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../和家云/Byzhang/和家云02.assets/image-20210913200926333.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../和家云/Byzhang/和家云02.assets/image-20210913201016367.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../和家云/Byzhang/和家云02.assets/image-20210913201207118.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../和家云/Byzhang/和家云02.assets/image-20210913213259510.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../和家云/Byzhang/和家云02.assets/image-20210914104148947.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../和家云/Byzhang/和家云02.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../和家云/Byzhang/和家云03.assets/image-20210914115234604.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../和家云/Byzhang/和家云03.assets/image-20210914115256126.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../和家云/Byzhang/和家云03.assets/image-20210914171512616.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../和家云/Byzhang/和家云03.assets/image-20210914174642239.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../和家云/Byzhang/和家云03.assets/image-20210914175345659.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../和家云/Byzhang/和家云03.assets/image-20210914175358603.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../和家云/Byzhang/和家云03.assets/image-20210914175552831.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../和家云/Byzhang/和家云03.assets/image-20210914181236327.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../和家云/Byzhang/和家云03.assets/image-20210914181417236.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../和家云/Byzhang/和家云03.assets/image-20210914182552838.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../和家云/Byzhang/和家云03.assets/image-20210914183035064.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../和家云/Byzhang/和家云03.assets/image-20210914183106633.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../和家云/Byzhang/和家云03.assets/image-20210914183432632.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../和家云/Byzhang/和家云03.assets/image-20210914183638067.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../和家云/Byzhang/和家云03.assets/image-20210914183802379.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../和家云/Byzhang/和家云03.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../和家云/Byzhang/和家云04.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../和家云/Lian/01项目环境准备.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../和家云/Lian/02登录功能实现.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../和家云/Lian/03 楼盘管理.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../和家云/Lian/03 楼盘管理02.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../和家云/Lian/和家云服务管理云平台.docx" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,17 +87,17 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="log4j" />
-        <option value="Class" />
         <option value="mapper" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/main/java/com/zhanghp/controller/LoginController.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/zhanghp/service/EstateService.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/zhanghp/controller/LoginController.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/test/java/com/zhanghp/Test02.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MavenImportPreferences">
@@ -58,12 +119,15 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../IDea_WorkSp/MybatisAll" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -178,7 +242,25 @@
       <workItem from="1631460414890" duration="878000" />
       <workItem from="1631504817969" duration="6616000" />
       <workItem from="1631512764289" duration="21433000" />
-      <workItem from="1631586484293" duration="18684000" />
+      <workItem from="1631586484293" duration="19293000" />
+      <workItem from="1631620979938" duration="1519000" />
+      <workItem from="1631707487223" duration="1814000" />
+      <workItem from="1631755544224" duration="197000" />
+      <workItem from="1631756497276" duration="1589000" />
+      <workItem from="1631759759403" duration="6875000" />
+      <workItem from="1631876418314" duration="1045000" />
+      <workItem from="1631879755733" duration="752000" />
+      <workItem from="1631940320831" duration="709000" />
+      <workItem from="1632569604167" duration="917000" />
+      <workItem from="1632811722361" duration="632000" />
+      <workItem from="1632892163311" duration="178000" />
+      <workItem from="1633152533039" duration="275000" />
+      <workItem from="1633243744152" duration="587000" />
+      <workItem from="1633875368621" duration="1280000" />
+      <workItem from="1633876796488" duration="12000" />
+      <workItem from="1633878236276" duration="928000" />
+      <workItem from="1633880843747" duration="2858000" />
+      <workItem from="1634556496510" duration="661000" />
     </task>
     <task id="LOCAL-00001" summary="和家云项目前3节课代码提交">
       <created>1631617327482</created>
@@ -187,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631617327482</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="和家云项目第4节课代码提交">
+      <created>1631876916149</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1631876916149</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,9 +298,10 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
-      <path value="$PROJECT_DIR$/.." />
+      <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="和家云项目前3节课代码提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="和家云项目前3节课代码提交" />
+    <MESSAGE value="和家云项目第4节课代码提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="和家云项目第4节课代码提交" />
   </component>
 </project>
